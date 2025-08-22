@@ -1,0 +1,42 @@
+{
+  "home": "Home",
+  "menu": "Menu",
+  "about": "About Us",
+  "contact": "Contact",
+  "signIn": "Sign In",
+
+  "title": "About Zarbor Somsa House",
+  "description1": "Zarbor Somsa House is a center for delicious samsas baked in a traditional style. Every day, we serve thousands of friends with samsas made from natural meat, fresh dough, and prepared by experienced chefs.",
+  "description2": "The quality and taste of our products are our pride. Zarbor Somsa House is not just a place to eat — it's a hub of culture, warmth, and hospitality.",
+  "stats": {
+    "recommendation": "Our customers recommend us",
+    "branches": "Branches in the city of Jarbdor",
+    "meat": "Kg of meat used daily",
+    "samsas": "Samsas prepared daily",
+    "delivery": "On-time delivery"
+  },
+  "banner2": {
+    "title": "Samsa: A National Dish",
+    "text1": "Samsa is a delicious national dish baked or fried in a tandoor.",
+    "text2": "It can be filled with meat, potatoes, or vegetables.",
+    "text3": "Every region has its own unique recipe."
+  },
+  "footer": {
+    "orderTitle": "To place an order",
+    "hoursLabel": "Working hours:",
+    "rights": "All rights reserved."
+  },
+  "description": "Our team is ready to assist you! If you have any questions, feel free to contact us.",
+  "avatarAlt": "Avatar number {{index}}",
+  "slider": {
+    "title": "We are waiting for you",
+    "alt": "Slider image"
+  },
+  "main": {
+    "welcome": "Welcome!",
+    "description1": "Discover Asr-Somsa, the tastiest Samsas and dishes of Uzbekistan.",
+    "description2": "Our samsas and dishes are prepared traditionally, adding love to every purchase.",
+    "leftImageAlt": "Olot Somsa logo on the left",
+    "rightImageAlt": "Olot Somsa logo on the right"
+  }
+}

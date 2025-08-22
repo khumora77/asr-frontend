@@ -1,0 +1,42 @@
+{
+  "home": "Bosh sahifa",
+  "menu": "Menyu",
+  "about": "Biz haqimizda",
+  "contact": "Bog'lanish",
+  "signIn": "Kirish",
+
+  "title": "Zarborni somsa xonasi haqida",
+  "description1": "Zarbor Somsa xonasi — bu an'anaviy uslubda pishirilgan mazali somsalar markazi. Biz har kuni minglab do‘stlarimizni tabiiy go‘sht, yangi xamir, va tajribali oshpazlar qo‘li bilan tayyorlangan somsalar bilan siylaymiz.",
+  "description2": "Mahsulotlarimiz sifati va ta'mi bizning faxrimizdir. Zarbor somsa xonasi — bu faqat ovqatlanish joyi emas, bu madaniyat, iliqlik va mehmondo‘stlik markazi.",
+  "stats": {
+    "recommendation": "Mijozlarimiz bizni tavfsiya qilishadi",
+    "branches": "Jarbdor shahrida filiallarimiz",
+    "meat": "Kg go’sht bir kunda ishlatiladi",
+    "samsas": "Dona somsa kuniga tayyorlanadi",
+    "delivery": "O’z vaqtida yetkazib berish"
+  },
+  "banner2": {
+    "title": "Somsa: Milliy Taom",
+    "text1": "Somsa — qovurilgan yoki tandirda pishirilgan mazali milliy taom.",
+    "text2": "Ichiga go‘sht, kartoshka yoki sabzavotlar solinadi.",
+    "text3": "Har bir hududda o‘ziga xos retsepti bor."
+  },
+  "footer": {
+    "orderTitle": "Buyurtma berish uchun",
+    "hoursLabel": "Ish vaqti:",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "description": "Jamoamiz sizga xizmat qilishga tayyor! Savollaringiz bo‘lsa, bemalol bog‘laning.",
+  "avatarAlt": "Avatar raqami {{index}}",
+  "slider": {
+    "title": "Biz sizni kutyabmiz",
+    "alt": "Slayder rasmi"
+  },
+  "main": {
+    "welcome": "Xush kelibsiz!",
+    "description1": "Asr-Somsa O‘zbekistonning eng mazali Somsalari va Taomlari bilan tanishing.",
+    "description2": "Bizning somsalarimiz va ta'omlarimiz an’anaviy uslubda tayyorlanadi, har bir xaridingizga mehrimizni qo‘shamiz.",
+    "leftImageAlt": "Olot Somsa logotipi chapda",
+    "rightImageAlt": "Olot Somsa logotipi o‘ngda"
+  }
+}
