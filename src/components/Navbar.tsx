@@ -29,14 +29,11 @@ function Navbar() {
   return (
     <nav className="w-full bg-gradient-to-r from-red-700 via-red-600 to-red-500 text-white py-3 px-4 shadow-lg fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <h1 className="text-2xl md:text-3xl font-extrabold tracking-wide">
             🍽 Asr-Somsa
           </h1>
         </Link>
-
-        {/* Mobile Toggle */}
         <button
           className="md:hidden text-white"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -44,9 +41,7 @@ function Navbar() {
           {menuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
         </button>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-6">
-          {/* Nav Items */}
           <div className="flex gap-5">
             {navLinks.map((item) => (
               <Link key={item.route} to={item.route}>
@@ -57,18 +52,17 @@ function Navbar() {
             ))}
           </div>
 
-          {/* Language */}
           <select
             onChange={(e) => changeLanguage(e.target.value)}
             value={i18n.language}
-            className="bg-white/10 border border-white/20 text-white px-3 py-1 rounded-lg hover:bg-white/20 transition"
+            className="bg-white/10 border border-white/20 text-white px-3 py-1 rounded-lg hover:bg-black/20 transition"
           >
             <option value="uz">🇺🇿 UZ</option>
             <option value="en">🇬🇧 EN</option>
             <option value="ru">🇷🇺 RU</option>
           </select>
 
-          {/* Auth */}
+
           <SignedOut>
             <SignInButton mode="modal">
               <Button className="bg-white text-red-600 font-bold hover:bg-gray-200 transition px-4 py-2 rounded-lg">
@@ -96,10 +90,8 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden mt-3 bg-red-600 rounded-lg p-4 space-y-4 shadow-lg">
-          {/* Nav Links */}
           <div className="flex flex-col gap-3">
             {navLinks.map((item) => (
               <Link
@@ -114,18 +106,17 @@ function Navbar() {
             ))}
           </div>
 
-          {/* Language */}
+       
           <select
             onChange={(e) => changeLanguage(e.target.value)}
             value={i18n.language}
-            className="w-full bg-white/10 border border-white/20 text-white px-3 py-2 rounded-lg hover:bg-white/20 transition"
+            className="w-full bg-white/10 border border-white/20 text-white px-3 py-2 rounded-lg hover:bg-black/20 transition"
           >
             <option value="uz">🇺🇿 UZ</option>
             <option value="en">🇬🇧 EN</option>
             <option value="ru">🇷🇺 RU</option>
           </select>
 
-          {/* Contact + Auth */}
           <div className="border-t border-white/20 pt-4">
             <h1 className="text-lg font-bold mb-3">📞 +998 99 947 99 47</h1>
             <SignedOut>

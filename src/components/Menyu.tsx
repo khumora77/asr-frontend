@@ -12,7 +12,7 @@ export default function SamsasPage() {
     (state: RootState) => state.samsas
   );
 
-  // 🔑 Clerk auth
+
   const { isSignedIn } = useUser();
   const { openSignIn } = useClerk();
 
@@ -32,7 +32,6 @@ export default function SamsasPage() {
 
   const handleOrder = (samsaId: number) => {
     if (!isSignedIn) {
-      // 🔐 login qilmagan bo‘lsa Clerk modalini ochamiz
       openSignIn();
       return;
     }
@@ -43,7 +42,6 @@ export default function SamsasPage() {
 
     dispatch(addOrder({ ...samsa, quantity }));
 
-    // Profilga yo‘naltirish
     navigate("/profile");
   };
 
